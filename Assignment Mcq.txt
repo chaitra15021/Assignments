@@ -1,0 +1,83 @@
+B – Task (TPL)
+
+B – AggregateException
+
+C – Mutex
+
+B – Immediately terminated
+
+D – Join()
+
+C – AsParallel()
+
+C – Monitor
+
+C – Delegates are value types
+
+C – async & await
+
+C – Mutex
+
+B – State machine
+
+C – Prevent deadlocks (no context capture)
+
+D – Wait()
+
+C – Parallel
+
+B – Ensures memory visibility
+
+B – Lock striping
+
+C – Logical delay without blocking
+
+B – ValueTask reduces allocations
+
+C – Mutex / lock
+
+B – AggregateException with all errors
+
+B – Task.Yield()
+
+B – Reduces heap allocations
+
+B – Prevent deadlocks (no context capture)
+
+B – Continues synchronously
+
+B – Cannot be awaited + crashes on exception
+
+C – SemaphoreSlim (WaitAsync)
+
+B – Prevents unsafe optimizations
+
+B – AsyncLocal<T>
+
+B – await foreach
+
+B – IAsyncDisposable
+
+C – ConcurrentBag
+
+B – TryAdd()
+
+B – Producer-Consumer pattern
+
+C – TryDequeue()
+
+B – Snapshot behaviour
+
+C – Preemption (NOT required)
+
+B – Blocking with .Result / .Wait()
+
+C – TryEnter()
+
+A – Consistent lock order
+
+B – Inefficient for I/O
+
+C – Exception property
+
+B – No SynchronizationContext in ASP.NET Core
